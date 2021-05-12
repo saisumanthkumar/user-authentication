@@ -17,4 +17,4 @@ As Soon as possible,I do add the userpage which directed after you can Login suc
 
 ```
 
-Thnak you!
+Thank you!
