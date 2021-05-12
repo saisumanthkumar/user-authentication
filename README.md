@@ -1,4 +1,4 @@
-# Deployed website is <a href="http://saisumanthkumar.github.io/user-authentication">HERE</a>
+# Deployed website is <a href="http://saisumanthkumar.github.io/user-authentication" target="_blank">HERE</a>
 
 ## About
 initially this contains empty data ,when u signup it stores that data in your Local-Storage forever.
