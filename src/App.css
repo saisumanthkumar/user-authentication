@@ -1,38 +1,99 @@
+.bg {
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+    filter: blur(4px);
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    top: -10%;
+}
+
+body {
+    overflow: hidden;
+}
+
 .App {
-  text-align: center;
+    width: 100%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+    background-color: rgb(255, 255, 255, 0.4);
+    border-radius: 20px;
+    padding: 20px 24px;
+    margin: auto;
+    width: 360px;
+    margin-top: 200px;
+    filter: blur(0px);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container input {
+    display: block;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    font-family: cursive;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+input[type=text] {
+    width: 80%;
+    margin: 10px auto;
+    height: 30px;
+    border-bottom: 2px solid black;
 }
 
-.App-link {
-  color: #61dafb;
+input[type=password] {
+    width: 80%;
+    margin: 10px auto;
+    height: 30px;
+    border-bottom: 2px solid black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.login {
+    background-image: linear-gradient(to right, #5C258D 0%, #4389A2 51%, #5C258D 100%)
+}
+
+.signup {
+    background-image: linear-gradient(to right, #000000 0%, #53346D 51%, #000000 100%)
+}
+
+button {
+    color: white;
+    display: block;
+    text-transform: uppercase;
+    margin: 10px auto;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    width: 50%;
+    font-size: 20px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    font-family: inherit;
+    background-size: 200% auto;
+    transition: all 0.5s ease-in-out;
+}
+
+.login:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.signup:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.alert {
+    width: 70%;
+    opacity: 0.6;
+    margin: 0 auto;
+    padding: 6px;
+    color: white;
 }
