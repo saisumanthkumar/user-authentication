@@ -1,7 +1,7 @@
 # Deployed website is <a href="http://saisumanthkumar.github.io/user-authentication" target="_blank">HERE</a>
 
 ## About
-initially this contains empty data ,when u signup it stores that data in your Local-Storage forever.
+Initially this contains empty data ,when u signup it stores that data in your Local-Storage of the device.
 when you refresh this page,it keeps the data and retrive from Local-Storage.
 And when u signup and then login it verify and diplay's Logged In.
 
